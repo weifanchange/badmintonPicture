@@ -1,0 +1,118 @@
+.content_box{
+    display: inline-block;
+    /* border: 1px dotted #4F4F4F; */
+    padding: 10px;
+    /* margin: 3px 3px 3px 0; */
+    margin:0px;
+}
+.img-width{
+    width: 280px;
+}
+.pic_title{
+    font-size: 20px;
+    color: blue;
+    margin-top: 50px;
+}
+.content_mid{
+    width: 1240px;
+    /* border: 5px solid lightgreen; */
+    margin: 0px auto;
+}
+.header_color{
+    background: #000;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.header{
+    background: #000;
+    height: 80px;
+    width: 600px;
+    margin: 0px auto;
+}
+.header_box{
+    width: 600px;
+    height:80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    /* border: 1px solid rgb(228, 100, 100); */
+    margin: 0px auto;
+    color: #fff;
+}
+.theme-default{
+    /* border: 5px solid lightgreen; */
+    width: 600px;
+    height:500px;
+    margin: 0px auto;
+}
+.back2Top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    opacity: 0.4;
+}
+.back2Top:hover{
+    opacity: 0.8;
+}
+.back2Top img{
+    width: 80px;
+}
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+    .content_mid{
+        width: 900px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+    .header, .header_box, .content_mid{
+        width: 500px;
+    }
+    .theme-default{
+        width: 500px;
+        height: 430px;
+    }
+    .img-width{
+        width: 220px;
+    }
+    .pic_title{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .header, .content_mid{
+        width: 400px;
+    }
+    .header_box{width: 380px;}
+    .theme-default{
+        width: 400px;
+        height: 350px;
+    }
+    .img-width{
+        width: 170px;
+    }
+    .pic_title{
+        margin-top: 20px;
+    }
+    .content_box{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .header, .content_mid{
+        width: 320px;
+    }
+    .header_box{width: 300px;}
+    .theme-default{
+        width: 320px;
+        height: 280px;
+    }
+    .img-width{
+        width: 150px;
+    }
+    .pic_title{
+        margin-top: 20px;
+    }
+    .content_box{
+        padding: 5px;
+    }
+}
